@@ -859,6 +859,7 @@ GameObject:
   - component: {fileID: 476226849}
   - component: {fileID: 476226848}
   - component: {fileID: 476226850}
+  - component: {fileID: 476226851}
   m_Layer: 0
   m_Name: luigi (1)_0
   m_TagString: Untagged
@@ -958,6 +959,55 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &476226851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476226847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373e6209dc71c2549815c0760a9bc77e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  actions: {fileID: -944628639613478452, guid: 09b7312279b34a24685cb7f7717c9a42, type: 3}
+  moveRight:
+    m_Name: Move Right
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b1a764cb-973e-4e34-aa94-a9af4ad4755b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 394ad39d-dcf5-4099-a5a4-4d6dc4b0a4a8
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Right
+      m_Flags: 0
+    m_Flags: 0
+  moveLeft:
+    m_Name: Move Left
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: e71b95c4-e019-42b6-b7be-8326556a0731
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  jump:
+    m_Name: Jump
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 03a68d43-955d-4d33-8236-70d915422787
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
